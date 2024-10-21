@@ -8,7 +8,7 @@
 
 " Initialization: {{{
 let s:configuration = sonokai#get_configuration()
-let s:palette = sonokai#get_palette(s:configuration.style, s:configuration.colors_override)
+let s:palette = sonokaandromedai#get_palette(s:configuration.style, s:configuration.colors_override)
 let s:path = expand('<sfile>:p') " the path of this script
 let s:last_modified = 'Mon Sep 30 10:09:56 UTC 2024'
 let g:sonokai_loaded_file_types = []
